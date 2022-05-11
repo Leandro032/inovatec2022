@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo"> Doar </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="conteudo animate__animated animate__fadeInLeft">
+    <img
+      class="img-item"
+      src="https://media.discordapp.net/attachments/973364209045864496/973751632946933760/zyro-image_3.png?width=809&height=539"
+      alt="Imagem Solidariedade"
+    />
+
+    <ion-card (click)="doarAlimentos()">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://media.discordapp.net/attachments/973364209045864496/973749205485101136/Alimentos.png"
+          />
+        </ion-thumbnail>
+        <ion-label>Alimentos</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="doarRoupas()">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://media.discordapp.net/attachments/973364209045864496/973749300888752168/Roupas.png"
+          />
+        </ion-thumbnail>
+        <ion-label>Roupas</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)=" doarSangue()">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://media.discordapp.net/attachments/973364209045864496/973749550617608212/Outros.png"
+          />
+        </ion-thumbnail>
+        <ion-label>Sangue</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)=" doarSangue()">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://media.discordapp.net/attachments/973364209045864496/973749500592160798/6264680.png"
+          />
+        </ion-thumbnail>
+        <ion-label>Outras doações</ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+</ion-content>

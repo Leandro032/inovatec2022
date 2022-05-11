@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo"> Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="conteudo animate__animated animate__fadeInLeft">
+    <img
+      class="img-item"
+      src="https://cdn.discordapp.com/attachments/973364209045864496/973743594076778546/people-donating-sanitary-material_52683-38907.png"
+      alt="Imagem de Solidariedade"
+    />
+    <p>
+      Existem pessoas precisando de sua ajuda, pessoas como você de bom coração!
+      😇 🙏🛒
+    </p>
+
+    <ion-card [routerLink]="['/tabs/tab2']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            src="https://media.discordapp.net/attachments/973364209045864496/973747951413391380/Doar.png"
+          />
+        </ion-thumbnail>
+        <ion-label>Quero doar</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <!-- Casse pai card-->
+    <ion-card [routerLink]="['/tabs/tab3']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            src="https://media.discordapp.net/attachments/973364209045864496/973747928910938152/Preciso_de_Doacao.png"
+          />
+        </ion-thumbnail>
+        <ion-label>Preciso de Doações</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card a href="http://inovatec.infinityfreeapp.com/">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            src="https://media.discordapp.net/attachments/973364209045864496/973748705314373662/dindin.png"
+          />
+        </ion-thumbnail>
+        <ion-label>Doar PIX</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card a href="http://inovatec.infinityfreeapp.com/discussao.php">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            src="https://media.discordapp.net/attachments/973364209045864496/973748715116453960/chatss.png"
+          />
+        </ion-thumbnail>
+        <ion-label>Pagina de Comentarios</ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+</ion-content>
